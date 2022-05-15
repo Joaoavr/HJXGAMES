@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    background-color: darkslategrey;
+    font-family: 'Noto Sans', sans-serif;
+}
+   
+
+.main-login{
+   width: 100vw; 
+   height: 100vh; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}   
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+}
+
+.left-login > h1{
+    color: white;
+
+}
+.left-login> details{
+    color: white;
+}
+
+.left-login-img{
+width: 40vw;
+}
+
+
+.rigth-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.form-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: mediumslateblue;
+    border-radius: 20px;
+    box-shadow: 0 10px 35px darkorchid;
+
+}
+
+.form-login>h1{
+    color: #451776;
+    font-weight: 650;
+    margin: 0;
+
+}
+
+.text-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0;
+
+}
+.text-field> input{
+
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+    color: #451776;
+    font-size: 12px;
+    box-shadow: 0 10px 35px darkorchid;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.text-field>label{
+    color: white;
+    margin-bottom: 10px;
+    
+}
+
+text-field>input::placeholder{
+color: #451776;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 15px 0px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: white;
+    background: #451776;
+    cursor: pointer;
+}
+.text-field> textarea{
+
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+    color: #451776;
+    font-size: 12px;
+    box-shadow: 0 10px 35px darkorchid;
+    outline: none;
+    box-sizing: border-box;
+}
+
