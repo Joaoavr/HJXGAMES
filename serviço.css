@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    background-color: darkslategrey;
+    font-family: 'Noto Sans', sans-serif;
+}
+   
+
+.main-login{
+   width: 100vw; 
+   height: 100vh; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}   
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   
+}
+
+.left-login > h1{
+    color: white;
+
+}
+.left-login> h2{
+    color: white;
+    text-align: center;
+    width: 40vw;
+    height: 40vh;
+}
+
+.rigth-login-img{
+width: 40vw;
+}
+
+
+.rigth-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
