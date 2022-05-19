@@ -37,6 +37,17 @@ header{
 #logo{
     color: azure;
 }
+
+.name{
+color: transparent;
+   background: linear-gradient(90deg, rgba(123,104,238,1) 0%, rgba(103,221,255,1) 100%);
+   background-size: 300% 300%;
+   -webkit-background-clip: text;
+    background-clip: text;
+    animation: gradient 5s ease infinite;
+}
+
+
 #cabeçalho{
     flex-direction: column;
     line-height: 10px;
